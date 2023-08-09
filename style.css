@@ -19,7 +19,6 @@ body {
 #page1 {
   height: 100vh;
   width: 100vw;
-  background: red;
   position: relative;
 }
 
@@ -64,12 +63,49 @@ body {
 .bottom-page1 {
   position: absolute;
   bottom: 5%;
-  left: 15%;
+  left: 10%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 25vh;
+  width: 90vh;
 }
 
 .bottom-page1 > h1 {
   font-size: 2.7rem;
   font-weight: 100;
   line-height: 1;
+  color: #fff;
+}
+
+.bottom-page1-inner {
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-page1-inner > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.bottom-page1-inner > h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+/******* for page 2 ********/
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
 }
